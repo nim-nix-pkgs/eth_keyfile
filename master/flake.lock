@@ -2,38 +2,11 @@
   "nodes": {
     "eth_keys": {
       "inputs": {
-        "eth_keys-master": "eth_keys-master",
         "flakeNimbleLib": [
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1648111470,
-        "narHash": "sha256-52LHhHqn3eXs3PeJkvjFMG2ZjafUgd2z+DWnEk3c3f4=",
-        "owner": "nim-nix-pkgs",
-        "repo": "eth_keys",
-        "rev": "e3d76350e8ebebed1dfa167498a6c54539fb7056",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "eth_keys",
-        "type": "github"
-      }
-    },
-    "eth_keys-master": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "eth_keys",
           "flakeNimbleLib"
         ],
         "nimcrypto": "nimcrypto",
         "nixpkgs": [
-          "eth_keys",
           "nixpkgs"
         ],
         "secp256k1": "secp256k1",
@@ -41,11 +14,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1648111470,
-        "narHash": "sha256-52LHhHqn3eXs3PeJkvjFMG2ZjafUgd2z+DWnEk3c3f4=",
+        "lastModified": 1648165187,
+        "narHash": "sha256-G28byXw5ls0GFsd+LWqEP2MLDhihsodlF4Srl16AQrU=",
         "owner": "nim-nix-pkgs",
         "repo": "eth_keys",
-        "rev": "e3d76350e8ebebed1dfa167498a6c54539fb7056",
+        "rev": "1d49f936d5abe29f0fb287a5383d235fe1412a8f",
         "type": "github"
       },
       "original": {
@@ -81,120 +54,21 @@
       "inputs": {
         "flakeNimbleLib": [
           "eth_keys",
-          "eth_keys-master",
-          "flakeNimbleLib"
-        ],
-        "nimcrypto-master": "nimcrypto-master",
-        "nixpkgs": [
-          "eth_keys",
-          "eth_keys-master",
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1648107861,
-        "narHash": "sha256-hwR/wELdM47Aqsvr8aEBWNXCE1R10yux1VO6SzIRAeo=",
-        "owner": "nim-nix-pkgs",
-        "repo": "nimcrypto",
-        "rev": "96f3627eb0c139f9fdc5655ca75218da9521dc81",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "nimcrypto",
-        "type": "github"
-      }
-    },
-    "nimcrypto-master": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "eth_keys",
-          "eth_keys-master",
-          "nimcrypto",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
           "eth_keys",
-          "eth_keys-master",
-          "nimcrypto",
           "nixpkgs"
         ],
         "src-nimcrypto-master": "src-nimcrypto-master"
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1648107861,
-        "narHash": "sha256-hwR/wELdM47Aqsvr8aEBWNXCE1R10yux1VO6SzIRAeo=",
+        "lastModified": 1648163345,
+        "narHash": "sha256-Czs+UnLS72ojOuhLzUHwMMOSiXKV6DLoR9W73GcQsSY=",
         "owner": "nim-nix-pkgs",
         "repo": "nimcrypto",
-        "rev": "96f3627eb0c139f9fdc5655ca75218da9521dc81",
-        "type": "github"
-      },
-      "original": {
-        "dir": "master",
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "nimcrypto",
-        "type": "github"
-      }
-    },
-    "nimcrypto-master_2": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "eth_keys",
-          "eth_keys-master",
-          "secp256k1",
-          "secp256k1-master",
-          "nimcrypto",
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "eth_keys",
-          "eth_keys-master",
-          "secp256k1",
-          "secp256k1-master",
-          "nimcrypto",
-          "nixpkgs"
-        ],
-        "src-nimcrypto-master": "src-nimcrypto-master_2"
-      },
-      "locked": {
-        "dir": "master",
-        "lastModified": 1648107861,
-        "narHash": "sha256-hwR/wELdM47Aqsvr8aEBWNXCE1R10yux1VO6SzIRAeo=",
-        "owner": "nim-nix-pkgs",
-        "repo": "nimcrypto",
-        "rev": "96f3627eb0c139f9fdc5655ca75218da9521dc81",
-        "type": "github"
-      },
-      "original": {
-        "dir": "master",
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "nimcrypto",
-        "type": "github"
-      }
-    },
-    "nimcrypto-master_3": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "nimcrypto",
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "nimcrypto",
-          "nixpkgs"
-        ],
-        "src-nimcrypto-master": "src-nimcrypto-master_3"
-      },
-      "locked": {
-        "dir": "master",
-        "lastModified": 1648107861,
-        "narHash": "sha256-hwR/wELdM47Aqsvr8aEBWNXCE1R10yux1VO6SzIRAeo=",
-        "owner": "nim-nix-pkgs",
-        "repo": "nimcrypto",
-        "rev": "96f3627eb0c139f9fdc5655ca75218da9521dc81",
+        "rev": "6b9d2f2ed7642fd92d3e8f3b37beca2135a0787e",
         "type": "github"
       },
       "original": {
@@ -209,29 +83,27 @@
       "inputs": {
         "flakeNimbleLib": [
           "eth_keys",
-          "eth_keys-master",
           "secp256k1",
-          "secp256k1-master",
           "flakeNimbleLib"
         ],
-        "nimcrypto-master": "nimcrypto-master_2",
         "nixpkgs": [
           "eth_keys",
-          "eth_keys-master",
           "secp256k1",
-          "secp256k1-master",
           "nixpkgs"
-        ]
+        ],
+        "src-nimcrypto-master": "src-nimcrypto-master_2"
       },
       "locked": {
-        "lastModified": 1648107861,
-        "narHash": "sha256-hwR/wELdM47Aqsvr8aEBWNXCE1R10yux1VO6SzIRAeo=",
+        "dir": "master",
+        "lastModified": 1648163345,
+        "narHash": "sha256-Czs+UnLS72ojOuhLzUHwMMOSiXKV6DLoR9W73GcQsSY=",
         "owner": "nim-nix-pkgs",
         "repo": "nimcrypto",
-        "rev": "96f3627eb0c139f9fdc5655ca75218da9521dc81",
+        "rev": "6b9d2f2ed7642fd92d3e8f3b37beca2135a0787e",
         "type": "github"
       },
       "original": {
+        "dir": "master",
         "owner": "nim-nix-pkgs",
         "ref": "master",
         "repo": "nimcrypto",
@@ -243,20 +115,22 @@
         "flakeNimbleLib": [
           "flakeNimbleLib"
         ],
-        "nimcrypto-master": "nimcrypto-master_3",
         "nixpkgs": [
           "nixpkgs"
-        ]
+        ],
+        "src-nimcrypto-master": "src-nimcrypto-master_3"
       },
       "locked": {
-        "lastModified": 1648107861,
-        "narHash": "sha256-hwR/wELdM47Aqsvr8aEBWNXCE1R10yux1VO6SzIRAeo=",
+        "dir": "master",
+        "lastModified": 1648163345,
+        "narHash": "sha256-Czs+UnLS72ojOuhLzUHwMMOSiXKV6DLoR9W73GcQsSY=",
         "owner": "nim-nix-pkgs",
         "repo": "nimcrypto",
-        "rev": "96f3627eb0c139f9fdc5655ca75218da9521dc81",
+        "rev": "6b9d2f2ed7642fd92d3e8f3b37beca2135a0787e",
         "type": "github"
       },
       "original": {
+        "dir": "master",
         "owner": "nim-nix-pkgs",
         "ref": "master",
         "repo": "nimcrypto",
@@ -287,44 +161,11 @@
       "inputs": {
         "flakeNimbleLib": [
           "eth_keys",
-          "eth_keys-master",
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "eth_keys",
-          "eth_keys-master",
-          "nixpkgs"
-        ],
-        "secp256k1-master": "secp256k1-master"
-      },
-      "locked": {
-        "lastModified": 1648110691,
-        "narHash": "sha256-A1dJU7U2GVJejAEbYeMfW63MYzadYVfXJVc0/+ZYyBE=",
-        "owner": "nim-nix-pkgs",
-        "repo": "secp256k1",
-        "rev": "650e9f229f0f64abfbe1396f60c9bc7f1bfe338f",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "secp256k1",
-        "type": "github"
-      }
-    },
-    "secp256k1-master": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "eth_keys",
-          "eth_keys-master",
-          "secp256k1",
           "flakeNimbleLib"
         ],
         "nimcrypto": "nimcrypto_2",
         "nixpkgs": [
           "eth_keys",
-          "eth_keys-master",
-          "secp256k1",
           "nixpkgs"
         ],
         "src-secp256k1-master": "src-secp256k1-master",
@@ -332,11 +173,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1648110691,
-        "narHash": "sha256-A1dJU7U2GVJejAEbYeMfW63MYzadYVfXJVc0/+ZYyBE=",
+        "lastModified": 1648164718,
+        "narHash": "sha256-5DbrdhEuZz9m5+3O+sZxxGBDQm9PYq3Z0b14xekJULw=",
         "owner": "nim-nix-pkgs",
         "repo": "secp256k1",
-        "rev": "650e9f229f0f64abfbe1396f60c9bc7f1bfe338f",
+        "rev": "3085b013cb27f374dffe1ed8347bc5c438dfcb17",
         "type": "github"
       },
       "original": {
@@ -470,62 +311,23 @@
       "inputs": {
         "flakeNimbleLib": [
           "eth_keys",
-          "eth_keys-master",
           "secp256k1",
-          "secp256k1-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
           "eth_keys",
-          "eth_keys-master",
           "secp256k1",
-          "secp256k1-master",
-          "nixpkgs"
-        ],
-        "stew-master": "stew-master"
-      },
-      "locked": {
-        "lastModified": 1648108133,
-        "narHash": "sha256-mT48CapDbojj/LsOxtK4S6s6RhmZEFW8wkoeYVFtQ6Y=",
-        "owner": "nim-nix-pkgs",
-        "repo": "stew",
-        "rev": "fd51cd67444e92ddf7ad7867f44e03e4cc99eba5",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "stew",
-        "type": "github"
-      }
-    },
-    "stew-master": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "eth_keys",
-          "eth_keys-master",
-          "secp256k1",
-          "secp256k1-master",
-          "stew",
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "eth_keys",
-          "eth_keys-master",
-          "secp256k1",
-          "secp256k1-master",
-          "stew",
           "nixpkgs"
         ],
         "src-stew-master": "src-stew-master"
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1648108133,
-        "narHash": "sha256-mT48CapDbojj/LsOxtK4S6s6RhmZEFW8wkoeYVFtQ6Y=",
+        "lastModified": 1648163641,
+        "narHash": "sha256-o1mp1U2lK44+JZDk4wYL0ntUijy1+3WGRrAHyr8j/GU=",
         "owner": "nim-nix-pkgs",
         "repo": "stew",
-        "rev": "fd51cd67444e92ddf7ad7867f44e03e4cc99eba5",
+        "rev": "2f74d82b8dbbd2144103f646070c06cdb1af35c6",
         "type": "github"
       },
       "original": {
