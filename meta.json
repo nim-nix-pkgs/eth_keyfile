@@ -7,7 +7,7 @@
   "license": "Apache License 2.0",
   "web": "https://github.com/status-im/nim-eth-keyfile",
   "refs": [
-    "fatal: unable to access 'https://github.com/status-im/nim-eth-keyfile/': Could not resolve host: github.com",
+    "fatal: unable to access 'https://github.com/status-im/nim-eth-keyfile/': Couldn't connect to server",
     ""
   ],
   "heads": []
